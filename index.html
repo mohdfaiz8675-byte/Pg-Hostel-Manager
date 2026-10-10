@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StayNest – Find a PG that feels like home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER: Flexbox -->
+    <header class="site-header">
+        <a class="logo" href="#">StayNest</a>
+        <nav class="nav">
+            <a href="#features">Why StayNest</a>
+            <a href="#rooms">Rooms</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a class="btn btn-small" href="#rooms">Book a visit</a>
+    </header>
+
+    <main>
+        <!-- HERO: Grid (2 columns on desktop, 1 on mobile) -->
+        <section class="hero">
+            <div class="hero-text">
+                <h1>A PG room that feels like home, not a hostel.</h1>
+                <p>Furnished rooms, home-cooked meals and Wi-Fi that works. Pay monthly, move in this week.</p>
+                <div class="hero-actions">
+                    <a class="btn" href="#rooms">See rooms</a>
+                    <a class="btn btn-ghost" href="#features">How it works</a>
+                </div>
+            </div>
+
+            <div class="hero-visual" aria-hidden="true">
+                <div class="tile tile-a"><strong>Single room</strong><span>₹7,500 / month</span></div>
+                <div class="tile tile-b"><strong>Meals</strong><span>3 times a day</span></div>
+                <div class="tile tile-c"><strong>Wi-Fi</strong><span>100 Mbps</span></div>
+            </div>
+        </section>
+
+        <!-- FEATURES: Grid with auto-fit -->
+        <section class="section" id="features">
+            <h2>Everything included in the rent</h2>
+            <div class="feature-grid">
+                <article class="card">
+                    <h3>Furnished rooms</h3>
+                    <p>Bed, wardrobe, study table and a fan or AC.</p>
+                </article>
+                <article class="card">
+                    <h3>Home-style food</h3>
+                    <p>Breakfast, lunch and dinner, cooked fresh daily.</p>
+                </article>
+                <article class="card">
+                    <h3>Safe and secure</h3>
+                    <p>CCTV at entry points and a warden on site.</p>
+                </article>
+                <article class="card">
+                    <h3>Laundry and cleaning</h3>
+                    <p>Weekly room cleaning and washing machine access.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ROOMS: Flexbox cards -->
+        <section class="section" id="rooms">
+            <h2>Pick your room</h2>
+            <div class="room-row">
+                <article class="room">
+                    <h3>Triple sharing</h3>
+                    <p class="price">₹4,500<small>/month</small></p><a class="btn btn-ghost" href="#contact">Enquire</a>
+                </article>
+                <article class="room room-featured">
+                    <h3>Double sharing</h3>
+                    <p class="price">₹6,000<small>/month</small></p><a class="btn" href="#contact">Enquire</a>
+                </article>
+                <article class="room">
+                    <h3>Single room</h3>
+                    <p class="price">₹7,500<small>/month</small></p><a class="btn btn-ghost" href="#contact">Enquire</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+        <p>Call us: 98XXXXXXXX · hello@StayNest.example</p>
+        <p>© 2026 Nivaas</p>
+    </footer>
+
+</body>
+
+</html>
